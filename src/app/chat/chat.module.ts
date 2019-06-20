@@ -8,9 +8,10 @@ import {ToastrModule} from 'ngx-toastr';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { RemoveSpecialCharPipe } from '../shared/pipe/remove-special-char.pipe';
 import { SharedModule } from '../shared/shared.module';
-//import { UserDetailsComponent } from './user-details/user-details.component';
+//import { UserDetailsComponent } from '../user-details/user-details.component';
 //import { UserDetailsComponent } from '../shared/user-details/user-details.component';
 import { SocketService } from '../socket.service';
+import { UserDetailsComponent } from '../shared/user-details/user-details.component';
 
 @NgModule({
   declarations: [ChatBoxComponent,RemoveSpecialCharPipe],
