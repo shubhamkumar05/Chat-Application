@@ -20,7 +20,7 @@ import {ToastrService} from 'ngx-toastr';
 })
 export class ChatBoxComponent implements OnInit {
 
-  @ViewChild('scrollMe', { read: ElementRef }) 
+  @ViewChild('scrollMe', { read: ElementRef ,static:false}) 
   public scrollMe: ElementRef;
 
   public authToken: any;

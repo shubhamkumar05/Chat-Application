@@ -26,7 +26,7 @@ import { UserDetailsComponent } from '../shared/user-details/user-details.compon
     ]),
     SharedModule
   ],
-  schemas:[CUSTOM_ELEMENTS_SCHEMA,NO_ERRORS_SCHEMA],
+  
   providers:[SocketService]
 })
 export class ChatModule { }
